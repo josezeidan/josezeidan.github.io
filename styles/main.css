@@ -1,0 +1,92 @@
+body {
+  background-color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card {
+  background-color: #000000;
+  border: none;
+  box-shadow: none;
+}
+
+#calculator {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.display-container {
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#display {
+  font-size: 2.5rem;
+  text-align: right;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+#operator-display {
+  color: #a5a5a5;
+  font-size: 0.9rem;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 1.5rem;
+  height: 60px;
+  border: none;
+  margin: 2px;
+}
+
+.btn-secondary {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #737373;
+}
+
+.btn-warning {
+  background-color: #ff9500;
+  color: #ffffff;
+}
+
+.btn-warning:hover {
+  background-color: #ffc158;
+}
+
+.btn-primary {
+  background-color: #ff9500;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #ffc158;
+}
+
+.btn-danger {
+  background-color: #a5a5a5;
+  color: #000000;
+}
+
+.btn-danger:hover {
+  background-color: #d9d9d9;
+}
+
+.card-title {
+  color: #ffffff;
+}
+
+#display.error {
+  color: #ff3b30;
+  font-size: 1.0rem;
+}
